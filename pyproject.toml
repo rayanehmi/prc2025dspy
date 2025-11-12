@@ -1,0 +1,12 @@
+[project]
+name = "prc2025dspy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "dspy>=3.0.4",
+    "pandas>=2.3.3",
+    "pyarrow>=15.0.0",
+]
