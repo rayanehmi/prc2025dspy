@@ -180,3 +180,7 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 /data
+.vscode/settings.json
+/src/.dspy_batches
+*.jsonl
+*.csv
