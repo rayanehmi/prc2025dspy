@@ -184,3 +184,5 @@ cython_debug/
 /src/.dspy_batches
 *.jsonl
 *.csv
+*.pkl
+*.parquet

@@ -496,7 +496,7 @@ wheels = [
 [[package]]
 name = "dspy"
 version = "3.1.0b1"
-source = { git = "https://github.com/rayanehmi/dspy.git?rev=feat%2Fgroq_async_batching#aac5dd1d3189b1846c912c46a9d194d43b49398d" }
+source = { git = "https://github.com/rayanehmi/dspy.git?rev=d0b0abb28e5b83a97d2e28e96ed9ddb587303923#d0b0abb28e5b83a97d2e28e96ed9ddb587303923" }
 dependencies = [
     { name = "anyio" },
     { name = "asyncer" },
@@ -1820,7 +1820,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "dotenv", specifier = ">=0.9.9" },
-    { name = "dspy", git = "https://github.com/rayanehmi/dspy.git?rev=feat%2Fgroq_async_batching" },
+    { name = "dspy", git = "https://github.com/rayanehmi/dspy.git?rev=d0b0abb28e5b83a97d2e28e96ed9ddb587303923" },
     { name = "groq", specifier = ">=0.36.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "pandas", specifier = ">=2.3.3" },

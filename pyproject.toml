@@ -15,4 +15,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-dspy = { git = "https://github.com/rayanehmi/dspy.git", rev = "feat/groq_async_batching" }
+dspy = { git = "https://github.com/rayanehmi/dspy.git", rev = "d0b0abb28e5b83a97d2e28e96ed9ddb587303923" }
