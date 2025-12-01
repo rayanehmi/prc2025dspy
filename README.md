@@ -6,6 +6,10 @@ Because of their inside knowledge and reasoning capabilities, LLMs already know 
 
 Additionally, because of the interpretable nature of language, they are able to reflect on their own performance in order to self improve. My first attempt used this concept and the [GEPA](https://arxiv.org/abs/2507.19457) algorithm to optimize the prompt of a fuel predictor (but I didn't have time to do it for this attempt).
 
+Finally, LLM predictions are by nature interpretable, because you can expose their reasoning. See example below:
+
+<img width="1437" height="866" alt="image" src="https://github.com/user-attachments/assets/7c4906b7-3bad-408b-aac9-1ff585d5bf1f" />
+
 The main challenge was the huge amount of predictions to do (around 70k). I wouldn't care if I was rich, but I ended up spending most of my time trying to go from thousand of dollars worth of LLM calls to just around $10. For that, I:
 1. Summarized the features of data points in text to reduce the amount of token per prediction
 2. Implemented an [experimental Batch API support](https://github.com/stanfordnlp/dspy/issues/9102) for [DSPy](https://github.com/stanfordnlp/dspy).
