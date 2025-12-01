@@ -10,6 +10,8 @@ Finally, LLM predictions are by nature interpretable, because you can expose the
 
 <img width="1437" height="866" alt="image" src="https://github.com/user-attachments/assets/7c4906b7-3bad-408b-aac9-1ff585d5bf1f" />
 
+## An engineering feat of strength
+
 The main challenge was the huge amount of predictions to do (around 70k). I wouldn't care if I was rich, but I ended up spending most of my time trying to go from thousand of dollars worth of LLM calls to just around $10. For that, I:
 1. Summarized the features of data points in text to reduce the amount of token per prediction
 2. Implemented an [experimental Batch API support](https://github.com/stanfordnlp/dspy/issues/9102) for [DSPy](https://github.com/stanfordnlp/dspy).
